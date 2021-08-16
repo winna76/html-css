@@ -1,0 +1,63 @@
+/* 列表页专有的css */
+.nav{
+    overflow: hidden;
+}
+.sk{
+    position: absolute;
+    border-left: 1px solid #c81523;
+    top: 40px;
+    left: 190px;
+    padding-left: 10px;
+    padding-top: 3px;
+}
+.sk_list{
+    float: left;
+    
+}
+.sk_list ul li{
+    float: left; 
+    
+}
+.sk_list ul li a{
+    padding: 0 30px;
+    display: inline-block;
+    color: #000;
+    height: 47px;
+    line-height: 47px;
+    font-size: 16px;
+    font-weight: 700;
+    
+}
+.sk_content{
+    float: left;
+}
+.sk_content ul li{
+    float: left;
+   
+}
+.sk_content ul li a{
+    padding: 0 20px;
+    display: inline-block;
+    height: 47px;
+    line-height: 49px;
+    font-size: 14px;
+}
+.sk_content ul li:last-child a::after{
+    content: "\ea50";
+    font-family: 'icomoon';
+    font-weight: 700;
+}
+.sk_bd ul li{
+    overflow: hidden;
+    float: left;
+    margin-right: 13px;
+    border:1px solid transparent;
+    width: 290px;
+    height: 460px;
+}
+.sk_bd ul li:nth-child(4n){
+    margin-right: 0px;
+}
+.sk_bd ul li:hover{
+    border:1px solid #c81523;
+}
